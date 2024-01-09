@@ -1,0 +1,123 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+    width: 100%;
+    min-height: 100svh;
+    background: rgb(63,94,251);
+    background: linear-gradient(145deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    border: none;
+    width: 600px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin-bottom: 70px;
+}
+.card-search {
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #f0f1f5;
+}
+input.form-control {
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: transparent;
+    margin-left: 15px;
+}
+input.form-control:focus {
+    background-color: transparent;
+    box-shadow: none;
+    border-color: none;
+    background: transparent;
+    color: #fff;
+}
+input.form-control::placeholder {
+    color: #ffffffcb;
+}
+#btn-add {
+    border-radius: 50px;
+    padding: 5px 25px;
+    background-color: transparent;
+    border: none;
+}
+
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    padding-left: 5px;
+    color: #fff;
+}
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    background-image: url(/assets/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    left: -30px;
+}
+
+ul li.checked {
+    color: #ffffffd3;
+    text-decoration: line-through;
+
+}
+ul li.checked::before {
+    background-image: url(/assets/checked.png);
+    transition: ease all .8s;
+}
+ul li span {
+    position: absolute;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    font-size: 22px;
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+}
+ul li span:hover {
+    background: #ffffff9a;
+    border-radius: 50px;
+    transition: ease all .8s;
+    color: black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+footer span {
+    color: #ffffffcb;
+}
