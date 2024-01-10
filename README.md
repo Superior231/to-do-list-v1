@@ -4,6 +4,3 @@
 
 # Deskripsi
 Website ini adalah alat yang memudahkan Anda dalam merencanakan, mengelola, dan menyelesaikan tugas-tugas harian dengan lebih terstruktur. Dengan antarmuka yang ramah pengguna website ini adalah kunci untuk meningkatkan produktivitas Anda dalam menjalani sehari-hari.
-
-# Preview
-[![Tutorial](https://img.youtube.com/vi/3bMHTtYB9KE/0.jpg)](https://www.youtube.com/watch?v=3bMHTtYB9KE)
