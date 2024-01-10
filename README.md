@@ -6,4 +6,4 @@
 Website ini adalah alat yang memudahkan Anda dalam merencanakan, mengelola, dan menyelesaikan tugas-tugas harian dengan lebih terstruktur. Dengan antarmuka yang ramah pengguna website ini adalah kunci untuk meningkatkan produktivitas Anda dalam menjalani sehari-hari.
 
 # Preview
-![home](assets/to-do-list-v.1-video-preview.mp4)
+![home](https://youtu.be/3bMHTtYB9KE)
